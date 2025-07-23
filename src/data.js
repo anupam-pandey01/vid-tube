@@ -1,4 +1,4 @@
-export const API_KEY = 'AIzaSyDHxdBB32JsduTjgsROyApe9cC5dVI_u7w';
+export const API_KEY = Process.env.API_KEY;
 
 export const value_converter = (value)=>{
     if(value>=1000000){
