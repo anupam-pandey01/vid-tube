@@ -1,5 +1,5 @@
-import React from 'react'
 import './Navbar.css'
+import { Link } from 'react-router'
 import menu from '../../assets/menu.png'
 import logo from '../../assets/logo.png'
 import search_icon from '../../assets/search.png'
@@ -13,7 +13,7 @@ const Navbar = ({setSidebar}) => {
     <nav className='navbar'>
       <div className="navbar-left flex-div">
         <img src={menu} alt="" className='icon'onClick={()=>setSidebar(prev=>prev===false?true:false)}/>
-        <img src={logo} alt="" className='logo'/>
+        <Link to='/'><img src={logo} alt="" className='logo'/></Link>
       </div>
 
       <div className="navbar-middle flex-div">

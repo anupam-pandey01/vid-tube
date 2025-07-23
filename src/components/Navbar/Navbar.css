@@ -33,3 +33,25 @@
     width: 35px;
     border-radius: 50%;
 }
+@media (max-width: 900px){
+    .icon{
+        display: none;
+    }
+    .navbar-right img{
+        display: none;
+    }
+    .navbar-right .user-profile{
+        display: block;
+        width: 30px;
+    }
+    .logo{
+        width: 90px;
+        margin-left: 0;
+    }
+    .navbar-middle .search-box input{
+        width: 100px;
+    }
+    .navbar-middle .search-box .search-icon{
+        display: block;
+    }
+}
