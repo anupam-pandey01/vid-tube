@@ -1,4 +1,4 @@
-export const API_KEY = Process.env.API_KEY;
+export const API_KEY = import.meta.env.VITE_KEY;
 
 export const value_converter = (value)=>{
     if(value>=1000000){
